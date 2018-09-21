@@ -2,7 +2,7 @@
 
 A PyTorch implementation of Ranking Distillation:
 
-*[Ranking Distillation: Learning Compact Ranking Models With High Performance for Recommender System](http://www.sfu.ca/~jiaxit/resources/kdd18ranking.pdf), Jiaxi Tang and Ke Wang , WSDM '18*
+*[Ranking Distillation: Learning Compact Ranking Models With High Performance for Recommender System](http://www.sfu.ca/~jiaxit/resources/kdd18ranking.pdf), Jiaxi Tang and Ke Wang , KDD '18*
 
 # Requirements
 
