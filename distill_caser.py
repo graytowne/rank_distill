@@ -299,7 +299,7 @@ class DistilledRecommender(Recommender):
 
                         num_smaller_than = torch.sum(col_prediction < dynamics_prediction, dim=1).float()
                         relative_rank = num_smaller_than / self._num_dynamic_samples
-                        predicted_rank = torch.floor(self._num_items * relative_rank)
+                        predicted_rank = torch.floor((self._num_items - 1) * relative_rank)
 
                         dynamic_weight = torch.tanh(self._mu * (predicted_rank - col))
                         dynamic_weight = torch.clamp(dynamic_weight, min=0.0)
