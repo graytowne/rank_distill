@@ -11,7 +11,7 @@ from utils import *
 
 
 def _save_checkpoint(state, filename):
-    print "Saving checkpoint to %s." % filename
+    print("Saving checkpoint to %s." % filename)
     torch.save(state, filename)
 
 
