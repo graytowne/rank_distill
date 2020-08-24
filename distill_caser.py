@@ -138,7 +138,7 @@ class DistilledRecommender(Recommender):
             print(output_str)
         else:
             output_str = "no model found at %s" % self._teacher_model_path
-            print output_str
+            print(output_str)
 
         # set teacher model to evaluation mode
         self._teacher_net.eval()
