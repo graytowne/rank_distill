@@ -7,7 +7,7 @@ A PyTorch implementation of Ranking Distillation:
 # Requirements
 
 - Python 2 or 3
-- [PyTorch v4.0+](https://github.com/pytorch/pytorch)
+- [PyTorch v0.4+](https://github.com/pytorch/pytorch)
 - Numpy
 - SciPy
 
